@@ -1,0 +1,71 @@
+
+/******************** Media queries *****************/
+
+@media screen and (max-width: 1000px){
+    #sign{
+        height: auto;
+    }
+    #sign form{
+        margin-bottom: 0;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    }
+    #sign form input{
+        margin: 15px 0;
+    }
+    
+    nav{
+        width: auto;
+        position:inherit;
+    }
+    #nav{
+        position: inherit;      
+        width: auto;
+        height: auto;
+
+        background: #8fa1bb;
+        box-shadow:none;
+    }
+    #nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+    }
+    #nav ul li {
+        border-right: none;
+        transition-duration: 0.2s;
+    }
+    #nav ul li:nth-child(1), #nav ul li:nth-child(2){
+        border-bottom: 1px solid #fff;
+    }
+    #banniere{
+        margin-top:0;
+    }
+    section{
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+    }
+    aside{
+        width: auto;
+        padding: 30px;
+
+        border-left:none;
+    }
+    footer{
+        height: auto;
+    }
+    #footer-list{
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+    }
+    #newsletter input{
+        margin:auto;
+        width: auto;
+    }
+}

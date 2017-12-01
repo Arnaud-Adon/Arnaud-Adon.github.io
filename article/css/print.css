@@ -1,0 +1,31 @@
+@media print{
+    @page {
+        margin: 1cm;
+    }
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    p:first-line,
+    blockquote:first-line,
+    li:first-line{
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow:none !important;
+    }
+    p{
+        widows: 4;
+        orphans: 3;
+    }
+    a[href^="http"]:not([href*="site"]):after {
+        content: " (" attr(href) ")";
+    }
+    
+    header, #footer-list, #newsletter, #banniere{
+        display: none;
+    }
+    body{
+        top:0;
+    }
+
+}

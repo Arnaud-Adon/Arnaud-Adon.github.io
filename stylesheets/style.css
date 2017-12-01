@@ -1,0 +1,244 @@
+/* Sprite */
+/* line 1, ../sass/sprite/_sprite.scss */
+.sprite {
+  background-image: url(img/sprite/star.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+/* line 7, ../sass/sprite/_sprite.scss */
+.sprite-if_Star_381628 {
+  width: 32px;
+  height: 32px;
+  background-position: -5px -5px;
+}
+
+/* line 13, ../sass/sprite/_sprite.scss */
+.sprite-if_star_118604 {
+  width: 32px;
+  height: 32px;
+  background-position: -47px -5px;
+}
+
+/* line 19, ../sass/sprite/_sprite.scss */
+.sprite-if_star_172558 {
+  width: 32px;
+  height: 32px;
+  background-position: -5px -47px;
+}
+
+/* Module */
+/* line 1, ../sass/module/_body.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI Light';
+}
+
+/* line 1, ../sass/module/_header.scss */
+#title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+/* line 8, ../sass/module/_header.scss */
+#title h1, #title h3 {
+  margin: 0;
+  font-family: 'Cooper Black',arial;
+  color: #fff;
+}
+
+/* line 16, ../sass/module/_header.scss */
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+}
+/* line 26, ../sass/module/_header.scss */
+nav ul a {
+  width: 690px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fbf8dc;
+  transition-duration: 0.3s;
+}
+/* line 33, ../sass/module/_header.scss */
+nav ul a:hover {
+  box-shadow: 5px 5px 5px silver inset;
+  border: 1px solid silver;
+}
+/* line 40, ../sass/module/_header.scss */
+nav li {
+  font-size: 25px;
+}
+
+/* line 1, ../sass/module/_container.scss */
+#description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  color: #fff;
+}
+/* line 10, ../sass/module/_container.scss */
+#description p {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 30px;
+  width: 400px;
+  justify-content: center;
+}
+
+/* line 18, ../sass/module/_container.scss */
+#presentation-content {
+  height: 100vh;
+  background: url("img/poste-de-travail.jpg") fixed;
+}
+
+/* line 23, ../sass/module/_container.scss */
+#experience-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: url("img/second-poste-de-travail.jpg") fixed;
+  color: #fff;
+}
+
+/* line 33, ../sass/module/_container.scss */
+.star-line {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 38, ../sass/module/_container.scss */
+#langage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  text-align: top;
+  background: #576188;
+  color: #fff;
+}
+
+/* line 50, ../sass/module/_container.scss */
+#contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 92vh;
+  background: url("img/avion_papier_mail.jpg");
+  color: #fff;
+  /* Positionner les placeholder au centre de l'input*/
+  /* firefox 19+ */
+  /* ie */
+}
+/* line 58, ../sass/module/_container.scss */
+#contact-content label {
+  font-weight: 20px;
+}
+/* line 62, ../sass/module/_container.scss */
+#contact-content input {
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+}
+/* line 67, ../sass/module/_container.scss */
+#contact-content textarea {
+  border-radius: 5px;
+}
+/* line 72, ../sass/module/_container.scss */
+#contact-content ::-webkit-input-placeholder {
+  text-align: center;
+}
+/* line 73, ../sass/module/_container.scss */
+#contact-content ::-moz-placeholder {
+  text-align: center;
+}
+/* line 74, ../sass/module/_container.scss */
+#contact-content :-ms-input-placeholder {
+  text-align: center;
+}
+/* line 75, ../sass/module/_container.scss */
+#contact-content input:-moz-placeholder {
+  text-align: center;
+}
+/* line 77, ../sass/module/_container.scss */
+#contact-content form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* line 84, ../sass/module/_container.scss */
+#contact-content button {
+  margin-top: 10px;
+  width: 400px;
+  height: 40px;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  transition-duration: 0.2s;
+}
+/* line 93, ../sass/module/_container.scss */
+#contact-content button:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* line 101, ../sass/module/_container.scss */
+table tr {
+  margin-bottom: 30px;
+}
+
+/* line 1, ../sass/module/_footer.scss */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #434756;
+  color: #fff;
+}
+
+/* line 10, ../sass/module/_footer.scss */
+#top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 54px;
+  background: #b9c0dc;
+  z-index: 5;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'klavikaboldwebfont';
+  src: url("./klavikaboldwebfont.eot");
+  src: local("klavikaboldwebfont"), url("./klavikaboldwebfont.woff") format("woff"), url("./klavikaboldwebfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'UTMNeutra';
+  src: url("./UTMNeutra.eot");
+  src: local("UTMNeutra"), url("./UTMNeutra.woff") format("woff"), url("./UTMNeutra.ttf") format("truetype");
+}

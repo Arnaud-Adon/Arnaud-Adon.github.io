@@ -1,0 +1,46 @@
+#sign-content{
+    background: #777777;
+}
+
+#form-sign{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    width: 500px;
+    background: silver;
+}
+
+#form-sign input{
+    width: 350px;
+    height: 50px;
+    border-radius: 0;
+    margin: 15px;
+    
+    font-size: 20px;
+}
+
+#form-sign input:nth-child(7){
+    color:#fff;
+}
+
+::-webkit-input-placeholder { text-align:center; }
+::-moz-placeholder { text-align:center; } /* firefox 19+ */
+:-ms-input-placeholder { text-align:center; } /* ie */
+input:-moz-placeholder { text-align:center; }
+
+#form-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+#form-content h1{
+    color: silver;
+}
+
+
+
